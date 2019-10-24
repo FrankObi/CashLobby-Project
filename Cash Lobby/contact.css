@@ -1,0 +1,86 @@
+@charset "utf-8";
+*{
+padding:0px;
+margin:0px;
+}
+header, nav, article, footer, address, container, hgroup, figure {  
+    display: block;  
+} 
+#container {
+width: 1348px;
+height: 100%;
+margin: 0px auto 0;
+}
+#return{
+position:relative;
+top:-20px;
+left:40px;
+}
+#return_div{
+position:relative;
+top:-25px;
+}
+#check{
+width:38px;
+display:none;
+}
+#red_x{
+width:28px;
+display:none;
+}
+#send_text{
+background: url('images/earn.png');
+border: 2px solid green;
+border-radius: 4px 4px 4px 4px;
+position:relative;
+height:50px;
+top:-39px;
+left:-39px;
+width:694px;
+text-align:center;
+padding-top:7px;
+}
+#report_text{
+display:none;
+}
+.form {
+box-shadow:rgb(110,110,110) 2px 2px 2px 2px;
+background:#ffffff;
+border: 2px solid #FFFFFF;
+border-radius: 4px 4px 4px 4px;
+height: 550px;
+padding: 20px;
+width: 690px;
+margin-top: 10px;
+position:relative;
+top:5px;
+left:330px;
+}
+.form table{
+position:relative;
+top:-15px;
+}
+.form p{
+margin-bottom:30px;
+}
+.form input{
+width:260px;
+margin:10px;
+}
+.form textarea{
+margin:10px;
+width:520px;
+height:180px;
+}
+.form select{
+margin:10px;
+}
+#footer {
+background: url('images/background_footer.png') repeat-x;
+border-top: 2px solid #fff;
+width: 100%;
+height: 80px;
+text-align: left;
+position:relative;
+top:80px;
+}

@@ -1,0 +1,138 @@
+@charset "utf-8";
+*{
+padding:0px;
+margin:0px;
+}
+header, nav, article, footer, address, container, hgroup, figure {  
+    display: block;  
+} 
+.form{
+position:relative;
+top:-30px;
+left:400px;
+width:800px;
+}
+.form div{
+margin-top:10px;
+background: none repeat scroll 0 0 #CCD0F2;
+border: 2px solid green;
+border-radius: 4px 4px 4px 4px;
+height: 50px;
+padding: 10px;
+width: 550px;
+position:relative;
+left:10px;
+text-align:center;
+}
+#article{
+position:relative;
+left:120px;
+}
+#article2{
+margin-top:80px;
+background: none repeat scroll 0 0 #CCD0F2;
+border: 2px solid green;
+border-radius: 4px 4px 4px 4px;
+height: 80px;
+padding: 10px;
+width: 1000px;
+position:relative;
+left:-210px;
+text-align:center;
+}
+#container {
+width: 1346px;
+height: 0%;
+margin: 0px auto 0;
+}
+#upload_text{
+ position:relative;
+ left:240px;
+ top:20px;
+ height:50px;
+ width:200px;
+ }
+#upload_buttons{
+ border-radius:4px;
+ background:-moz-linear-gradient(top,gray,white);
+ background:-webkit-linear-gradient(top,gray,white);
+ background:-o-linear-gradient(top,gray,white);
+ }
+ #loading_gif{
+ display:none;
+ width:50px;
+ position:relative;
+ top:10px;
+ left:680px;
+ }
+ #upload_button{
+ border-radius:4px;
+ background:-moz-linear-gradient(top,gray,white);
+ background:-webkit-linear-gradient(top,gray,white);
+ background:-o-linear-gradient(top,gray,white);
+ }
+ #remote_upload_buttons{
+ border-radius:4px;
+ background:-moz-linear-gradient(top,gray,white);
+ background:-webkit-linear-gradient(top,gray,white);
+ background:-o-linear-gradient(top,gray,white);
+ }
+ #upload_buttons:hover,#upload_button:hover{
+ box-shadow:rgb(110,110,110) 1px 1px 1px;
+ }
+#link_art{
+ width:320px;
+ height:30px;
+ position:relative;
+ left:300px;
+ }
+#uploaded_link{
+ width:250px;
+}
+#link{
+padding:5px;
+}
+#article {
+background: none repeat scroll 0 0 #CCD0F2;
+border: 2px solid #FFFFFF;
+border-radius: 4px 4px 4px 4px;
+height: 50px;
+padding: 10px;
+width: 320px;
+margin-top: 10px;
+position:relative;
+left:930;
+}
+#hgroup {
+background: #eee;
+border-radius: 4px;
+color: #0A574C;
+padding: 4px;
+width:58%;
+text-align:center;
+position:relative;
+left:100px;
+}
+#hgroup2 {
+background: #eee;
+border-radius: 4px;
+color: #0A574C;
+padding: 4px;
+width:58%;
+text-align:center;
+position:relative;
+left:200px;
+}
+
+#remote{
+width:200px;
+}
+#footer {
+background: url('images/background_footer.png') repeat-x;
+border-top: 2px solid #fff;
+width: 100%;
+height: 80px;
+text-align: left;
+position:relative;
+top:100px;
+}

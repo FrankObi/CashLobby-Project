@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+padding:0px;
+margin:0px;
+}
+header, nav, article, footer, address, container, hgroup, figure {  
+    display: block;  
+} 
+#container {
+width: 1363px;
+height: 100%;
+margin: 0px auto 0;
+}
+.tos{
+border-radius: 4px 4px 4px 4px;
+position:relative;
+top:15px;
+left:300px;
+width: 720px;
+height:900px;
+background:white;
+padding:30px;
+box-shadow:rgb(110,110,110) 2px 2px 2px 2px;
+}
+.tos h2,p{
+margin:15px;
+margin-bottom:30px;
+}
+#footer {
+background: url('images/background_footer.png') repeat-x;
+border-top: 2px solid #fff;
+width: 100%;
+height: 80px;
+text-align: left;
+position:relative;
+top:100px;
+}

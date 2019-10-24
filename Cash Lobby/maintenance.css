@@ -1,0 +1,26 @@
+@charset "utf-8";
+*{
+padding:0px;
+margin:0px;
+}
+header, nav, article, footer, address, container, hgroup, figure {  
+    display: block;  
+} 
+#container {
+width: 1348px;
+height: 75%;
+margin: 0px auto 0;
+}
+ .form {
+box-shadow:rgb(110,110,110) 2px 2px 2px 2px;
+background:#ffffff;
+border: 2px solid #FFFFFF;
+border-radius: 4px 4px 4px 4px;
+height: 180px;
+padding: 20px;
+width: 466px;
+margin-top: 10px;
+position:relative;
+top:5px;
+left:420px;
+}

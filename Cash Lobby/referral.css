@@ -1,0 +1,79 @@
+ @charset "utf-8";
+/* CSS Document */
+
+*{
+padding:0px;
+margin:0px;
+}
+header, nav, article, footer, address, container, hgroup, figure {  
+    display: block;  
+} 
+.form .ref{
+background:#add8e6;
+text-align:center;
+position:relative;
+top:120px;
+left:338px;
+height:35px;
+width:600px;
+padding:30px;
+border:2px solid gray;
+}
+.form .ref h3{
+position:relative;
+left:5px;
+}
+.form .ref input{
+width:450px;
+}
+.form h4{
+color:white;
+background-image: url('images/menu-bg.png');
+text-align:center;
+padding:5px;
+position:relative;
+top:50px;
+left:537px;
+border: 2px solid #FFCD99;
+width:250px
+}
+.form h3{
+position:absolute;
+top: 5px;
+left:210px;
+}
+.form p{
+position:relative;
+top:-15px;
+}
+#last_h3{
+position:relative;
+top:-20px;
+}
+#container {
+width: 1350px;
+height: 100%;
+margin: 0px auto 0;
+}
+#article{
+color:white;
+background:orange;
+margin:5px;
+padding:10px;
+position:relative;
+top:100px;
+left:458px;
+width:400px;
+height:7px;
+box-shadow:rgb(110,110,110) 2px 2px 2px 2px;
+border: 2px solid #FFCD99;
+}
+#footer {
+background: url('images/background_footer.png') repeat-x;
+border-top: 2px solid #fff;
+width: 100%;
+height: 80px;
+text-align: left;
+position:relative;
+top:500px;
+}

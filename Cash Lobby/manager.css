@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+padding:0px;
+margin:0px;
+}
+header, nav, article, footer, address, container, hgroup, figure {  
+    display: block;  
+} 
+#manager_files{
+	  position:relative;
+	  left:440px;
+	  list-style-type:none;
+	  font-weight: bold;
+	  width:500px;
+	 }
+	 #Delete_link1{
+	 position:relative;
+	 top:-20px;
+	 left:325px;
+	 color:red;
+	 font-family: Arial,Helvetica,sans-serif;
+	 border-radius:4px;
+	 background:-webkit-linear-gradient(top,orange,white);
+	 background:-moz-linear-gradient(top,orange,white);
+	 background:-o-linear-gradient(top,orange,white);
+	 }
+	 #Delete_link1:hover{
+	 position:relative;
+	 top:-20px;
+	 left:323px;
+	 color:#ff4500;
+	 font-weight: bold;
+	 box-shadow:rgb(110,110,110) 1px 1px 8px;
+	 cursor:pointer;
+	 }
+	 #link{
+	 position:relative;
+	 top:50px;
+	 left:30;
+	 width:350px;
+	 }
+	 #file{
+	 color:#228b22;
+	 text-decoration:none;
+	 }
+	 #file:hover{
+	 padding: 10px 36px 15px 10px;
+	 color:#60A12D;
+     }	 
+	 	 
+	 #folder_image{
+	 position:relative;
+	 top:15px;
+     left:-30px;	 
+	 }
+#container {
+width: 1350px;
+height: 100%;
+margin: 0px auto 0;
+}
+#manage{
+color:white;
+position:relative;
+left:430px;
+top:10px;
+background-image: url('images/menu-bg.png');
+border: 2px solid green;
+border-radius: 4px 4px 4px 4px;
+height: 20px;
+padding: 10px;
+width: 530px;
+margin-top: 10px;
+font-family: Arial,Helvetica,sans-serif;
+text-align:center;
+}
+#article{
+width:400px;
+height:50px;
+box-shadow:rgb(110,110,110) 2px 2px 2px 2px;
+}
+article {
+    background: none repeat scroll 0 0 #CCD0F2;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    height: 250px;
+    padding: 10px;
+    width: 880px;
+	margin-top: 10px;
+}
+article:hover {
+border: 2px solid #FFCD99;
+}
+#delete_text{
+position:relative;
+left:560px;
+top:50px;
+color:green;
+}
+#footer {
+background: url('images/background_footer.png') repeat-x;
+border-top: 2px solid #fff;
+width: 100%;
+height: 80px;
+text-align: left;
+position:relative;
+top:220px;
+}
