@@ -10,7 +10,7 @@ I admit, this idea was very ambitious for my age at the time and was done by a f
 It took me many months especially since I was just learning javascript when I has started.
 
 The front page of the website looked like this back in 2012 and should still look like that.
-[image]
+![GitHub Logo](/screencapture.png)
 
 
 
